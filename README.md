@@ -15,23 +15,30 @@ An end-to-end medical document analysis system that automatically extracts struc
 ---
 
 ## Repository Structure
+
+````
 FYP-Medical-Document-Analysis/
 │
-├── app/                        # Laravel controllers and models
-│   ├── Http/Controllers/       # AuthController, ReportController, UploadController
-│   └── Models/                 # User, Report, MedicalValue
+├── app/
+│   ├── Http/Controllers/       ← AuthController, ReportController, UploadController
+│   └── Models/                 ← User, Report, MedicalValue
 │
-├── database/migrations/        # MySQL table definitions
-├── resources/views/            # Laravel Blade templates
-├── routes/web.php              # Application routes
-├── composer.json               # PHP dependencies
+├── database/
+│   └── migrations/             ← MySQL table definitions
 │
-├── pipeline.py                 # Main extraction pipeline
-├── api_server.py               # FastAPI REST API server
-├── evaluate.py                 # Accuracy evaluation script
-├── insert_to_db.py             # Dataset insertion script
-└── patterns.py                 # Regex pattern library
----
+├── resources/
+│   └── views/                  ← Laravel Blade templates
+│
+├── routes/
+│   └── web.php                 ← Application routes
+│
+├── composer.json               ← PHP dependencies
+├── pipeline.py                 ← Main extraction pipeline
+├── api_server.py               ← FastAPI REST API server
+├── evaluate.py                 ← Accuracy evaluation script
+├── insert_to_db.py             ← Dataset insertion script
+└── patterns.py                 ← Regex pattern library
+````
 
 ## Key Technologies
 
