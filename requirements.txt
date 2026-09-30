@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+pytesseract
+Pillow
+tika
+spacy
+mysql-connector-python
+pandas
+numpy
+matplotlib
